@@ -1,6 +1,6 @@
 /*
  * Sifteo SDK for testing.
-Alexander Canton - 2013
+Alexander Canton - contributor 2013
  */
 
 #include <sifteo.h>
@@ -8,8 +8,8 @@ Alexander Canton - 2013
 using namespace Sifteo;
 
 static Metadata M = Metadata()
-    .title("Sensors SDK Example")
-    .package("com.sifteo.sdk.sensors", "1.1")
+    .title("Sensors")
+    .package("com.sifteo.sensors", "1.1")
     .icon(Icon)
     .cubeRange(0, CUBE_ALLOCATION);
 
